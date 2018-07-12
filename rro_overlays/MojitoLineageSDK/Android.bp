@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "MojitoLineageSDK",
+    theme: "MojitoLineageSDK",
+    sdk_version: "current",
+    vendor: true,
+}
