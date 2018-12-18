@@ -163,6 +163,15 @@
       "Type": "File"
     },
     {
+      "Name": "ForegroundCpuset",
+      "Path": "/dev/cpuset/foreground/cpus",
+      "Values": [
+        "0-5",
+        "0-5,7"
+      ],
+      "ResetOnInit": true
+    },
+    {
       "Name": "EnergyAware",
       "Path": "/proc/sys/kernel/sched_energy_aware",
       "Values": [
@@ -220,6 +229,12 @@
       "Node": "CPUBigClusterMaxFreq",
       "Duration": 2000,
       "Value": "9999999"
+    },
+    {
+      "PowerHint": "LAUNCH",
+      "Node": "ForegroundCpuset",
+      "Duration": 5000,
+      "Value": "0-5"
     },
     {
       "PowerHint": "LAUNCH",
