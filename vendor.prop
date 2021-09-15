@@ -219,6 +219,7 @@ persist.vendor.radio.report_codec=1
 
 # Soc
 ro.soc.manufacturer=Qualcomm
+ro.soc.model=SM6150
 
 # USB
 vendor.usb.diag.func.name=diag
