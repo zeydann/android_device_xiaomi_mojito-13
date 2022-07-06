@@ -203,7 +203,6 @@ ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.qti.va_aosp.support=1
 
 # Radio
-persist.vendor.qti.telephony.vt_cam_interface=2
 persist.vendor.radio.custom_ecc=1
 persist.vendor.radio.data_ltd_sys_ind=1
 persist.vendor.radio.dynamic_sar=1
