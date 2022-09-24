@@ -340,3 +340,8 @@ service vendor.qti.hardware.display.allocator /vendor/bin/hw/vendor.qti.hardware
      capabilities SYS_NICE
      onrestart restart surfaceflinger
      task_profiles ProcessCapacityHigh HighPerformance
+
+on property:sys.boot_completed=1
+    # Restrict permissions to socket file
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
