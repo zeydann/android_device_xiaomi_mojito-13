@@ -27,18 +27,11 @@
 #include <utils/Log.h>
 
 #include <mutex>
-#include <sys/ioctl.h>
 
 #include "PowerHintSession.h"
 #include "PowerSessionManager.h"
 
-#define SET_CUR_VALUE 0
-#define TOUCH_DEV_PATH "/dev/xiaomi-touch"
-
-#define TOUCH_MAGIC 0x5400
-#define TOUCH_IOC_SETMODE TOUCH_MAGIC + SET_CUR_VALUE
-
-#define Touch_Doubletap_Mode 14
+#define TAP_TO_WAKE_NODE "/sys/touchpanel/double_tap"
 
 namespace aidl {
 namespace google {
@@ -49,6 +42,7 @@ namespace pixel {
 
 using ::aidl::google::hardware::power::impl::pixel::PowerHintSession;
 using ::android::perfmgr::HintManager;
+using ::android::base::WriteStringToFile;
 
 constexpr char kPowerHalStateProp[] = "vendor.powerhal.state";
 constexpr char kPowerHalAudioProp[] = "vendor.powerhal.audio";
@@ -104,12 +98,9 @@ ndk::ScopedAStatus Power::setMode(Mode type, bool enabled) {
             }
             mSustainedPerfModeOn = enabled;
             break;
-        case Mode::DOUBLE_TAP_TO_WAKE: {
-            int fd = open(TOUCH_DEV_PATH, O_RDWR);
-            int arg[2] = {Touch_Doubletap_Mode, enabled ? 1 : 0};
-            ioctl(fd, TOUCH_IOC_SETMODE, &arg);
+        case Mode::DOUBLE_TAP_TO_WAKE:
+            WriteStringToFile(enabled ? "1" : "0", TAP_TO_WAKE_NODE, true);
             break;
-        }
         case Mode::LAUNCH:
             [[fallthrough]];
         case Mode::FIXED_PERFORMANCE:
