@@ -121,6 +121,9 @@ BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=qcom
 
 TARGET_KERNEL_CONFIG := mojito_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mojito
+TARGET_KERNEL_ADDITIONAL_FLAGS := \
+    LLVM=1 \
+    LLVM_IAS=1
 
 # Media
 TARGET_USES_ION := true
