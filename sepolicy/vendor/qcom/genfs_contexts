@@ -3,7 +3,6 @@ genfscon sysfs /devices/platform/soc/18800000.qcom,icnss/wakeup                 
 genfscon sysfs /devices/platform/soc/1e00000.qcom,ipa/wakeup                                                                                       u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/8300000.qcom,turing/wakeup                                                                                    u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/88e0000.qcom,msm-eud/wakeup                                                                                   u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/a600000.ssusb/wakeup/wakeup                                                                                   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:goodix_fp/wakeup                                                                                          u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:gpio_keys/wakeup                                                                                          u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,ipa_fws/wakeup                                                                                       u:object_r:sysfs_wakeup:s0
