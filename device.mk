@@ -354,13 +354,13 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    CarrierConfigMojito \
-    FrameworksMojito \
-    SettingsProviderMojito \
-    SettingsMojito \
-    SystemUIMojito \
-    TelephonyMojito \
-    WifiMojito
+    MojitoCarrierConfig \
+    MojitoFrameworks \
+    MojitoSettingsProvider \
+    MojitoSettings \
+    MojitoSystemUI \
+    MojitoTelephony \
+    MojitoWifi
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true

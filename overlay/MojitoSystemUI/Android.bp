@@ -1,6 +1,6 @@
 runtime_resource_overlay {
-    name: "TelephonyMojito",
-    theme: "TelephonyMojito",
+    name: "MojitoSystemUI",
+    theme: "MojitoSystemUI",
     sdk_version: "current",
     vendor: true,
 }
