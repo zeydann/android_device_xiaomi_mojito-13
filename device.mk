@@ -351,6 +351,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
+    M2101K7AGSettings \
+    M2101K7AISettings \
     MojitoAperture \
     MojitoCarrierConfig \
     MojitoFrameworks \
