@@ -403,7 +403,7 @@ vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
 -vendor/lib64/camera/components/com.qti.node.remosaic.so
 -vendor/lib64/camera/components/com.qti.node.stich.so
 -vendor/lib64/camera/components/com.qti.node.swregistration.so
--vendor/lib64/camera/components/com.qti.node.watermark.so
+-vendor/lib64/camera/components/com.qti.node.watermark.so|ad269d112fd1924426c6078a82843fad5105190e
 -vendor/lib64/camera/components/com.qti.node.xiaomigenderage.so
 -vendor/lib64/camera/components/com.qti.stats.aec.so
 -vendor/lib64/camera/components/com.qti.stats.aecwrapper.so
