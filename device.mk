@@ -83,6 +83,8 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     libtinycompress
 
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Audio XML
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
