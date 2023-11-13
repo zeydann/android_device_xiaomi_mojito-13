@@ -7,6 +7,9 @@
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/mojito/mojito-vendor.mk)
 
+# Call the Miui Camera setup
+$(call inherit-product-if-exists, vendor/xiaomi/mojito-miuicamera/mojito-miuicamera-vendor.mk)
+
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
