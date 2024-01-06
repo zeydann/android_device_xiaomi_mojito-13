@@ -63,9 +63,4 @@
     <string name="dirac_preset_metal">Metal</string>
     <string name="dirac_preset_bass_booster">Penguat Bass</string>
 
-    <!-- Clear Speaker -->
-    <string name="clear_speaker_title">Bersihkan pengeras suara</string>
-    <string name="clear_speaker_summary">Putar audio selama 30 detik untuk membersihkan pengeras suara</string>
-    <string name="clear_speaker_description">Jalankan fitur ini satu atau dua kali apabila pengeras suara Anda sedikit terhalang oleh debu. Setel suara ke tingkat maksimal.\n\nJika pengeras suara sangat tersumbat, jalankan fitur ini dua sampai lima kali sambil menggoyangkan perangkat dengan pengeras suara menghadap ke bawah.\n\nPERINGATAN: Pastikan perangkat jemala telah terlepas.</string>
-
 </resources>
