@@ -63,17 +63,6 @@
     <string name="dirac_preset_metal">Metal</string>
     <string name="dirac_preset_bass_booster">Penguat Bass</string>
 
-    <!-- Thermal Profiles -->
-    <string name="thermal_title">Profil suhu</string>
-    <string name="thermal_summary">Sesuaikan profil suhu aplikasi untuk kinerja yang optimal</string>
-    <string name="thermal_default">Bawaan</string>
-    <string name="thermal_benchmark">Tolok Ukur</string>
-    <string name="thermal_browser">Peramban</string>
-    <string name="thermal_camera">Kamera</string>
-    <string name="thermal_dialer">Telepon</string>
-    <string name="thermal_gaming">Permainan</string>
-    <string name="thermal_streaming">Siaran</string>
-
     <!-- Clear Speaker -->
     <string name="clear_speaker_title">Bersihkan pengeras suara</string>
     <string name="clear_speaker_summary">Putar audio selama 30 detik untuk membersihkan pengeras suara</string>
