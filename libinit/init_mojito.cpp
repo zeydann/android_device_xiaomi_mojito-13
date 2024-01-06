@@ -57,16 +57,18 @@ void load_dalvikvm_props() {
 }
 
 void load_vendor_props() {
-    string device, fingerprint, name;
+    string device, fingerprint, model, name;
 
     string hwname = GetProperty("ro.boot.hwname", "");
     if (hwname.find("sunny") != std::string::npos) {
         device = "sunny";
         fingerprint = "Redmi/sunny_global/sunny:12/RKQ1.210614.002/V14.0.8.0.SKGMIXM:user/release-keys";
+        model = "M2101K7AG";
         name = "sunny_global";
     } else {
         device = "mojito";
         fingerprint = "Redmi/mojito/mojito:12/RKQ1.210614.002/V14.0.8.0.SKGMIXM:user/release-keys";
+        model = "M2101K7AI";
         name = "mojito";
     }
 
@@ -74,16 +76,15 @@ void load_vendor_props() {
 					"system_ext.", "vendor." };
 
     for (const string &prop : prop_partitions) {
-        property_override(string("ro.product.") + prop + string("name"), name);
         property_override(string("ro.product.") + prop + string("device"), device);
         property_override(string("ro.") + prop + string("build.fingerprint"), fingerprint);
+        property_override(string("ro.product.") + prop + string("model"), model);
+        property_override(string("ro.product.") + prop + string("name"), name);
     }
 
     if (hwname.find("sunny") != std::string::npos) {
-        property_override("ro.product.model", "M2101K7AG");
         property_override("ro.build.description", "sunny_global-user 12 SKQ1.210908.001 V14.0.8.0.SKGMIXM release-keys");
     } else {
-        property_override("ro.product.model", "M2101K7AI");
         property_override("ro.build.description", "mojito-user 12 SKQ1.210908.001 V14.0.8.0.SKGMIXM release-keys");
     }
 
