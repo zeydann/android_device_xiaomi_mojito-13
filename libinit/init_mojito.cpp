@@ -72,8 +72,8 @@ void load_vendor_props() {
         name = "mojito";
     }
 
-    string prop_partitions[] = { "", "odm.", "system.",
-					"system_ext.", "vendor." };
+    string prop_partitions[] = { "", "odm.", "product.", "system.",
+					"system_ext.", "vendor.", "vendor_dlkm." };
 
     for (const string &prop : prop_partitions) {
         property_override(string("ro.product.") + prop + string("device"), device);
