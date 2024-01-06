@@ -89,8 +89,6 @@ void load_vendor_props() {
     }
 
     property_override("bluetooth.device.default_name", "Redmi Note 10");
-    property_override("ro.product.brand", "Redmi");
-    property_override("ro.product.manufacturer", "Xiaomi");
     property_override("vendor.usb.product_string", "Redmi Note 10");
 }
 
