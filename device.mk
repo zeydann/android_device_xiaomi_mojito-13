@@ -165,7 +165,7 @@ PRODUCT_COPY_FILES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiAudioFX
 
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify

@@ -30,7 +30,7 @@ import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.SwitchPreference;
 
-import org.lineageos.settings.R;
+import org.lineageos.settings.dirac.R;
 
 import com.android.settingslib.widget.MainSwitchPreference;
 import com.android.settingslib.widget.OnMainSwitchChangeListener;

@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lineageos.settings"
+    package="org.lineageos.settings.dirac"
     android:versionCode="1"
     android:versionName="1.0"
     android:sharedUserId="android.uid.system">
@@ -29,7 +29,7 @@
         android:targetSdkVersion="24"/>
 
     <application
-        android:label="@string/device_settings_app_name"
+        android:label="@string/dirac_title"
         android:persistent="true">
 
         <receiver android:name=".BootCompletedReceiver">
@@ -40,7 +40,7 @@
         </receiver>
 
         <activity
-            android:name=".dirac.DiracActivity"
+            android:name=".DiracActivity"
             android:label="@string/dirac_title"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
