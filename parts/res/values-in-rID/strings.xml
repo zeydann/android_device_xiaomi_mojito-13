@@ -12,8 +12,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Ambient settings -->
-    <string name="ambient_enable">Gunakan tampilan standby</string>
 
     <!-- Dirac settings -->
     <string name="dirac_enable">Aktifkan Peningkat Suara Mi</string>
