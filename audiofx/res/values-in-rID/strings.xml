@@ -18,11 +18,7 @@
     <string name="dirac_title">Peningkat Suara Mi</string>
     <string name="dirac_summary">Optimalkan kualitas audio</string>
     <string name="dirac_headset_title">Pilih jenis perangkat jemala</string>
-    <string name="dirac_hifi_enable_title">Aktifkan Hi-Fi</string>
     <string name="dirac_preset_title">Pilih prasetel</string>
-
-    <string name="dirac_hifi_title">Hi-Fi</string>
-    <string name="dirac_hifi_summary">Kurangi kebisingan dan distorsi serta tingkatkan kualitas audio</string>
 
     <string name="dirac_headset_default">Bawaan</string>
     <string name="dirac_headset_earbuds">Mi Earbuds</string>
