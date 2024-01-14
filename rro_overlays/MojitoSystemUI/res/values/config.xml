@@ -72,4 +72,7 @@
 
     <!-- Burn in protection -->
     <bool name="config_statusBarBurnInProtection">true</bool>
+
+    <!-- Max visible status icons -->
+    <integer name="config_maxVisibleStatusIcons">6</integer>
 </resources>
