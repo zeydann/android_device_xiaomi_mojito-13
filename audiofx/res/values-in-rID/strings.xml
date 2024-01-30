@@ -14,18 +14,17 @@
 <resources>
 
     <!-- Dirac settings -->
-    <string name="dirac_enable">Aktifkan Peningkat Suara Mi</string>
+    <string name="dirac_enable">Gunakan Peningkat Suara Mi</string>
     <string name="dirac_title">Peningkat Suara Mi</string>
     <string name="dirac_summary">Optimalkan kualitas audio</string>
     <string name="dirac_headset_title">Pilih jenis perangkat jemala</string>
     <string name="dirac_preset_title">Pilih prasetel</string>
 
-    <string name="dirac_headset_default">Bawaan</string>
     <string name="dirac_headset_earbuds">Mi Earbuds</string>
     <string name="dirac_headset_in_ear_2013">Mi In-Ear (2013)</string>
     <string name="dirac_headset_piston_1">Mi Piston-1</string>
     <string name="dirac_headset_general">Umum</string>
-    <string name="dirac_headset_general_inear">Penyuara jemala umum</string>
+    <string name="dirac_headset_general_inear">In-Ear umum</string>
     <string name="dirac_headset_piston_basic">Edisi Basic</string>
     <string name="dirac_headset_piston_2">Mi Piston-2</string>
     <string name="dirac_headset_piston_standard">Edisi Standar</string>
