@@ -691,4 +691,6 @@
           As of Honeycomb, blurring is not supported anymore. -->
      <bool name="config_sf_slowBlur">false</bool>
 
+     <!--Useful if you want to improve signal reception -->
+      <bool name="config_ignoreRssnrSignalLevel">true</bool>
 </resources>
