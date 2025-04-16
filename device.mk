@@ -473,6 +473,9 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+ 
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
