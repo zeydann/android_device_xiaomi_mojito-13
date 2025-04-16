@@ -184,6 +184,16 @@ persist.vendor.cp.fcc_main_ua=400000
 persist.vendor.cp.taper_term_mv=6500
 persist.vendor.cp.vbus_offset_mv=1040
 
+#go_defaults
+ro.config.low_ram=false
+pm.dexopt.downgrade_after_inactive_days=10
+pm.dexopt.shared=quicken
+ro.lmk.critical_upgrade=true
+ro.lmk.upgrade_pressure=40
+ro.lmk.downgrade_pressure=60
+ro.lmk.kill_heaviest_task=false
+ro.statsd.enable=false
+
 # IMS
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
