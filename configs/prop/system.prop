@@ -11,6 +11,9 @@ ro.charger.enable_suspend=true
 # Display
 debug.force_no_blanking=true
 
+# Disable MTE Async for system server
+arm64.memtag.process.system_server=off
+ 
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 
