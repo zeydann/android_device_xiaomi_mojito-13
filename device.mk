@@ -13,6 +13,9 @@ $(call inherit-product-if-exists, vendor/xiaomi/mojito-leicacamera/mojito-leicac
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
+# Enable private keys
+-include vendor/private/keys/keys.mk
+
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
