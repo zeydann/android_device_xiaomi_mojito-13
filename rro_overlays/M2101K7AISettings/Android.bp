@@ -1,4 +1,0 @@
-runtime_resource_overlay {
-    name: "M2101K7AISettings",
-    product_specific: true,
-}
