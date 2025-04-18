@@ -21,6 +21,10 @@ TARGET_SUPPORTS_QUICK_TAP := true
 
 TARGET_USES_AOSP_RECOVERY := true
 
+# Flag
+RISING_MAINTAINER := OliverSyx
+RISING_CHIPSET := Snapdragon 678
+
 PRODUCT_NAME := lineage_mojito
 PRODUCT_DEVICE := mojito
 PRODUCT_BRAND := Redmi
