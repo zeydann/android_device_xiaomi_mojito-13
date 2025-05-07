@@ -16,7 +16,8 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-ARROW_GAPPS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true # For supported face unlock
+ARROW_MAINTAINER := Zeyy
 
 PRODUCT_NAME := arrow_mojito
 PRODUCT_DEVICE := mojito
